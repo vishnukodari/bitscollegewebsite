@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.obox{
+    border: solid 1px;
+    height: 165px;
+    display: flex;
+}
+#box1,#box2 {
+    border: solid 1px;
+    height: 165px;
+    background-color: antiquewhite;
+}
+#box1{
+    width: 165px;
+}
+#box2{
+    width: 2200px;
+    text-align:center ;
+}
+   
+#clgname{
+    font-size: 50px;
+    color:rgb(248, 26, 30)
+}
+#text1{
+    color:blue; 
+    
+}
+#text2{
+    color: blue;
+}
+#bits{
+    font-size: 35px;
+    color:red;
+}
+#scrolltext{
+    font-size: 35px;
+    color: blueviolet;
+    font-weight: bold;
+}
+#navbox{
+    
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 271px;
+    float: left;
+    text-align: center;
+    line-height: 49px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    margin-right: 1px;
+   
+
+    
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color:black;
+    font-size:22px;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: blue;
+background-clip: unset;
+}
+.outbox{
+   
+    height: 400px;
+    display:flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 400px;
+    z-index: -1; 
+}
+#in1{
+    width: 600px;
+    background-image:url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size:600px 400px;
+    animation-name:imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes imgchange{
+    10%{
+        background-image:url(img1.jpg);
+    }
+    20%{
+        background-image:  url(img2.jpg);
+    }
+    30%{
+        background-image: url(img3.jpg);
+    }
+    40{
+        background-image:url(im4.jpg);
+    }
+    50%{
+        background-image:url(img5.jpg);
+    }
+    60%{
+        background-image:url(img6.jpg); 
+    }
+}
+#in2,#in3{
+    width: 500px;
+}
+
+

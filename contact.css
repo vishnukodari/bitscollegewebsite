@@ -1,0 +1,45 @@
+form{
+    border: solid 1px;
+    width: 500px;
+    margin-left: 150px;
+    background-color: rgb(207, 233, 102);
+    background-image: url(img1.jpg);
+    pedding: 30px;
+   
+}
+h1{
+    color: rgb(247, 18, 18);
+    font-size: 40px;
+    text-align:center;
+   
+}
+p{
+    font-size: 15px;
+    color:white;
+}
+label{
+    color:rgb(16, 12, 12);
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+input{
+    height: 30px;
+    width: 440px;
+    border-radius: 8px;
+    
+}
+textarea{
+    height: 120px;
+    width: 440px;
+    border-radius: 8px;
+
+}
+button{
+    height: 30px;
+    width: 60;
+    background-color: brown;
+    border-radius: 10px;
+    font-size: 10px;
+
+}
